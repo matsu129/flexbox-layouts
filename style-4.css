@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+header nav{
+  background-color: darkgray;
+}
+nav img{
+  max-height: 100px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+header nav ul{
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  gap: 15px;
+  margin: 0px 30px ;
+}
+main{
+  margin: 30px;
+}
+.siamese-img{
+  display: flex;
+  justify-content: stretch;
+  gap: 50px;
+  align-self: center;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  margin: 10px;
+}
+.siamese-1{
+  background-color: antiquewhite;
+  flex-grow: 1;
+  flex-basis: 20vw;
+}
+.siamese-2{
+  background-color: rgb(215, 250, 220);
+  flex-grow: 1;
+  flex-basis: 20vw;
+}
+.siamese-3{
+  background-color: rgb(215, 241, 250);
+  flex-grow: 1;
+  flex-basis: 20vw;
+}
+main img{
+  max-height: 500px;
+}
+footer nav ul{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  gap: 15px;
+  margin: 0px 30px ;
+}

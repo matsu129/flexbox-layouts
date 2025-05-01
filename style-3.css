@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+header nav{
+  background-color: darkgray;
+}
+nav img{
+  max-height: 100px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+header nav ul{
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  gap: 15px;
+  margin: 0px 30px ;
+}
+main{
+  margin: 30px;
+}
+.siamese-img{
+  float: right;
+  margin: 10px;
+}
+main img{
+  max-width: 300px;
+}
+footer nav ul{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  gap: 15px;
+  margin: 0px 30px ;
+}

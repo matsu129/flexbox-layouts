@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+header nav{
+  background-color: darkgray;
+}
+nav img{
+  max-height: 100px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+header nav ul{
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  gap: 15px;
+  margin: 0px 30px ;
+}
+main{
+  display: flex;
+  margin: 30px;
+}
+aside{
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 10vw;
+  margin: 10px;
+  border: 1px solid lightslategray;
+  padding: 20px;
+}
+aside ul{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.siamese-img{
+  flex: 5 5 90vw;
+  display: flex;
+  justify-content: flex-start;
+  gap: 50px;
+  align-self: center;
+  flex-wrap: wrap;
+  margin: 10px;
+  border: 1px solid lightslategray;
+  padding: 20px;
+}
+.siamese-1, .siamese-2, .siamese-3, .siamese-4, .siamese-5, .siamese-6 {
+  flex-basis: 300px;
+}
+.siamese-1{
+  background-color: antiquewhite;
+}
+.siamese-2{
+  background-color: rgb(215, 250, 220);
+}
+.siamese-3{
+  background-color: rgb(215, 241, 250);
+}
+.siamese-4{
+  background-color: rgb(215, 217, 250);
+}
+.siamese-5{
+  background-color: rgb(245, 215, 250);
+}
+.siamese-6{
+  background-color: rgb(250, 215, 231);
+}
+main img{
+  max-height: 10vw;
+  width: auto;
+}
+footer nav ul{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  gap: 15px;
+  margin: 0px 30px ;
+}
